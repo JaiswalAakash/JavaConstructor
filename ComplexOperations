@@ -1,0 +1,35 @@
+private double real;
+    private double imaginary;
+
+    public ComplexNumber(double real, double imaginary){
+        this.real = real;
+        this.imaginary = imaginary;
+    }
+
+    public double getReal(double real){
+        return this.real;
+    }
+
+    public double getImaginary(double imaginary){
+        return this.imaginary;
+    }
+
+    public void add(double real, double imaginary){
+        this.real += this.real;
+        this.imaginary += this.imaginary;
+    }
+
+    public void add(ComplexNumber number){
+        this.real += number.real;
+        this.imaginary += number.imaginary;
+    }
+    
+    public void substract(double real, double imaginary){
+        this.real -= this.real;
+        this.imaginary -= this.imaginary;
+    }
+    
+    public void substract(ComplexNumber number){
+        this.real -= number.real;
+        this.imaginary -= number.imaginary;
+    }
