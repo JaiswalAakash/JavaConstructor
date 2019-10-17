@@ -1,3 +1,4 @@
+public class ComplexNumber {
 private double real;
     private double imaginary;
 
@@ -33,3 +34,4 @@ private double real;
         this.real -= number.real;
         this.imaginary -= number.imaginary;
     }
+}
